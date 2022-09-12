@@ -2,9 +2,9 @@
   "name": "01-introduccion-ejercicio-1",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "Ejercicio1.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node Ejercicio1.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
