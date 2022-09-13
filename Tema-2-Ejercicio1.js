@@ -1,5 +1,5 @@
 const fechaNacimiento = new Date("october 13 1997")
-const libroFav {
+const libroFav = {
     titulo: "Harry Potter y la cámara de los secretos",
     autor: "J.K.Rowlin",
     fecha: 1998,
