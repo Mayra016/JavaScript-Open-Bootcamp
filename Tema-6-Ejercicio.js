@@ -24,4 +24,4 @@ const listaTitulos = pelisFav.map(pelis => {
 
 const tituloyDirectores = listaTitulos.concat(listaDirectores);
 
-const propagacion = listaDirectores.map((valor, indice) => '${valor} - ${listaTitulos[indice]');
+const propagacion = [...listaDirectores, ...listaTitulos];
