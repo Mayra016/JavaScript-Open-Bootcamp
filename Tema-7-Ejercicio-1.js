@@ -1,5 +1,4 @@
-const lista = ["Mônica", "Efstratios", "Gabriélle", "Máyra"];
-const listaSet = new Set(lista);
+const listaSet = new Set(["Mônica", "Efstratios", "Gabriélle", "Máyra"]);
 listaSet.add("Máyra");
 listaSet.add("JavaScript");
 console.log(listaSet);
