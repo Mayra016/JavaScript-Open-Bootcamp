@@ -5,14 +5,7 @@ function ejecutado() {
 
 // Función asincrona que tarda 5 segundos 
 function* asincrona() {
-    let i = 0;
-    while (true) {
-        i++;
-        if (i = 6) {
-           console.log("Hola soy una promesa");
-        }
-        yield i;
-    }
+    return setTimeout(() => console.log("Hola soy una promesa"), 5000)
 }
 
 // Genera índices pares al azar
